@@ -139,3 +139,12 @@ STATICFILES_DIRS = [
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 AUTH_USER_MODEL = 'dasapp.CustomUser'
+
+
+ALLOWED_HOSTS = [
+    '127.0.0.1',  # Localhost
+    'localhost',  # Localhost with hostname
+    'your-vercel-project.vercel.app',  # Vercel deployment URL
+    'locahh-system.onrender.com',  # Render deployment URL
+    'www.example.com'  # Any other domain
+]
