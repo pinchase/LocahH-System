@@ -137,5 +137,5 @@ AUTH_USER_MODEL = 'dasapp.CustomUser'
 
 
 ALLOWED_HOSTS = [
-https://locahh-system-s0rq.onrender.com  # Any other domain
+    'https://locahh-system-s0rq.onrender.com/',  # Localhost
 ]
