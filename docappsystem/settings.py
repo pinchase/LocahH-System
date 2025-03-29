@@ -137,9 +137,5 @@ AUTH_USER_MODEL = 'dasapp.CustomUser'
 
 
 ALLOWED_HOSTS = [
-    '127.0.0.1',  # Localhost
-    'localhost',  # Localhost with hostname
-    'your-vercel-project.vercel.app',  # Vercel deployment URL
-    'locahh-system.onrender.com',  # Render deployment URL
-    'www.example.com'  # Any other domain
+https://locahh-system-s0rq.onrender.com  # Any other domain
 ]
