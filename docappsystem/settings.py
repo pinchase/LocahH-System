@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-=u!!em!u$#9d=ew1uzeq&=90w(%62nx5b)9j66kbhh2*ee__il'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = True;
 
 ALLOWED_HOSTS = []
 
@@ -83,13 +83,8 @@ WSGI_APPLICATION = 'docappsystem.wsgi.application'
 # }
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'docaspythondb',
-        'USER': 'root',
-        'PASSWORD': '',
-        'HOST': 'localhost',
-        'PORT': '3306',
-               
+        'ENGINE': 'django.db.backends.sqlite3',  # Using SQLite engine
+        'NAME': BASE_DIR / 'db.sqlite3',         # Path to the SQLite database file
     }
 }
 
