@@ -1,0 +1,1 @@
+web: "python manage.py runservers -r --0.0.0.0"
